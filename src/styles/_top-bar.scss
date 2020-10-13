@@ -1,0 +1,18 @@
+#top__bar {
+  position: fixed;  
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 40px;
+  display: flex;
+  background-color: $menu-color;
+  color: $white;
+  font-size: 1.2rem;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid $white;
+}
+
+.menu-btn-svg {
+  fill: $white;
+}

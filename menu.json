@@ -1,0 +1,99 @@
+{
+  "menu": [
+    {
+      "categoryTitle": "Salads",
+      "dishes": [
+        {
+          "dishTitle": "Caesar Salad",
+          "dishDesc": "Crisp romaine, onions, cheese, croutons.",
+          "dishVariants": [
+            {
+              "variantTitle": "",
+              "variantDesc": "",
+              "price": "8.20"
+            }
+          ]
+        },
+        {
+          "dishTitle": "Mediterranean Salad",
+          "dishDesc": "Green olives, onions, tomato, cucumber, balsamic vinaigrette, olive virgin oil.",
+          "dishVariants": [
+            {
+              "variantTitle": "S",
+              "variantDesc": "",
+              "price": "9.20"
+            },
+            {
+              "variantTitle": "M",
+              "variantDesc": "",
+              "price": "11.00"
+            },
+            {
+              "variantTitle": "XL",
+              "variantDesc": "",
+              "price": "12.00"
+            }
+          ]
+        },
+        {
+          "dishTitle": "Noodle Salad",
+          "dishDesc": "Chilled salad of udon noodles with an Indian twist of curry leaves, cashew nuts, mustard seeds, coriander and turmeric.",
+          "dishVariants": [
+            {
+              "variantTitle": "S",
+              "variantDesc": "",
+              "price": "9.20"
+            },
+            {
+              "variantTitle": "M",
+              "variantDesc": "",
+              "price": "11.00"
+            },
+            {
+              "variantTitle": "XL",
+              "variantDesc": "",
+              "price": "12.00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryTitle": "Vegan burguers",
+      "dishes": [
+        {
+          "dishTitle": "Plain vegan burguer",
+          "dishDesc": "Homemade vegan burger",
+          "dishVariants": [
+            {
+              "variantTitle": "",
+              "variantDesc": "",
+              "price": "3.20"
+            }
+          ]
+        },
+        {
+          "dishTitle": "Egg burger",
+          "dishDesc": "Homemade vegetables burguer with egg",
+          "dishVariants": [
+            {
+              "variantTitle": "Small burguer piece",
+              "variantDesc": "",
+              "price": "9.20"
+            },
+            {
+              "variantTitle": "Medium burguer piece",
+              "variantDesc": "",
+              "price": "11.00"
+            },
+            {
+              "variantTitle": "Big burguer piece",
+              "variantDesc": "",
+              "price": "12.00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+#menu {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: $menu-color;
+    transform: translateX(-100%);
+    top: 40px;
+    overflow: hidden;
+    transition: transform .5s ease-in-out;
+    position: fixed;
+    z-index: 10;
+    overflow-y: scroll;
+
+    &-title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1em;
+      font-weight: 600;
+    }
+
+    &.open {
+        transform: translateX(0);
+      }
+  }
+  .menu-link {
+      display: block;
+      padding: 1em;
+      text-decoration: none;
+      color: $white;
+      text-transform: uppercase;
+    }
