@@ -11,40 +11,10 @@
 </head>
 
 <body>
-  <div id="top__bar">
-    <span id="menu-btn">
-      <svg class="menu-btn-svg" viewBox="0 0 100 80" width="20" height="20">
-        <rect width="100" height="20"></rect>
-        <rect y="30" width="100" height="20"></rect>
-        <rect y="60" width="100" height="20"></rect>
-      </svg>
-    </span>
-  </div>
-  <div id="menu">
-    <ul class="menu-list" id="menu-list">
-      {{#each menu.menu}}
-      <li>
-        <a class="menu-link" href="#category-{{@index}}">
-          {{categoryTitle}}
-        </a>
-      </li>
-
-      {{/each}}
-    </ul>
-  </div>
+  {{> components/topbar }}
+  {{> components/menu }}
   <div class="content">
-    <header id="header">
-
-      <div class="header__info">
-        <h1 class="header__title">
-          {{restaurant.name}}
-        </h1>
-        <h2 class="header__subtitle">
-          <span class="header__info-slogan"> {{restaurant.slogan}}</span>
-        </h2>
-        <span class="header__info-address"> {{restaurant.address}}</span>
-      </div>
-    </header>
+    {{> components/header }}
     <main id="main">
       {{#each menu.menu}}
       <section class="section" id="category-{{@index}}">
