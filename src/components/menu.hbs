@@ -1,0 +1,16 @@
+<div id="menu">
+    <ul class="menu-list" id="menu-list">
+        {{#each menu.menu}}
+        <li>
+            <a class="menu-link" href="#category-{{@index}}">
+                {{categoryTitle}}
+            </a>
+        </li>
+        {{/each}}
+        <li>
+            <a class="menu-link" href="./qr.html">
+                QR CODE
+            </a>
+        </li>
+    </ul>
+</div>

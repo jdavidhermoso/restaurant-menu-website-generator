@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+    <title> {{restaurant.name}} | {{restaurant.address}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <script src="./app.{{buildHash}}.bundle.js"></script>
+    <link rel="stylesheet" href="./app.{{buildHash}}.css">
+</head>
+
+<body>
+    {{> components/topbar }}
+    {{> components/menu }}
+    <div class="content">
+        {{> components/header }}
+        <main id="main">
+            <div id="qr-container">
+                <img src="assets/qr.png">
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
